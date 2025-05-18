@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankesh-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="branding">
+                <img src="profilepic.png" alt="Ankesh Kumar" class="profile-picture">
+                <div class="name-tagline">
+                    <h1>Ankesh Kumar</h1>
+                    <p>Chasing dreams till achievements.</p>
+                </div>
+            </div>
+        </div>
+        <button class="menu-btn" id="menu-btn" onclick="toggleNav()">☰</button>
+    </header>
+    <div id="nav">
+        <nav class="nav-section" id="nav-bar">
+            <ul class="nav-list">
+                <li><i class="fa-solid fa-user-tie fa-bounce " style="color: #00a6ff
+;"></i><a href="#profession">Profession</a></li>
+                <li><i class="fa-solid fa-square-poll-vertical fa-bounce " style="color: #00a6ff
+;"></i><a href="#projects">Projects</a></li>
+                <li><i class="fa-solid fa-screwdriver-wrench fa-bounce " style="color: #00a6ff
+;"></i><a href="#skills">Skills</a></li>
+                <li><i class="fa-solid fa-video fa-bounce " style="color: #00a6ff
+;"></i><a href="#video">Video</a></li>
+                <li><i class="fa-solid fa-blog fa-bounce " style="color: #00a6ff
+;"></i><a href="#blog">Blog</a></li>
+                <li><i class="fa-solid fa-tablet-button fa-bounce " style="color: #00a6ff
+;"></i><a href="#profiles">Profiles</a></li> <!-- Added link -->
+                <li><i class="fa-solid fa-certificate fa-bounce " style="color: #00a6ff
+;"></i><a href="#certificates">Certificates</a></li> <!-- Added link -->
+                <li><i class="fa-regular fa-file fa-bounce " style="color: #00a6ff
+;"></i><a href="#cv">CV</a></li>
+                <li><i class="fa-regular fa-address-book fa-bounce " style="color: #00a6ff
+;"></i><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="profession">
+        <div class="professional">
+            <h2>Profession</h2>
+            <h3>Software Developer & Data Analyst Enthusiast | BTech (2nd Year)</h3>
+            <p> As a second-year BTech student with a strong passion for Software Development and Data Analysis, I am
+                eager to apply my academic knowledge and practical skills in real-world scenarios. I possess a solid
+                foundation in programming, data management, and data visualization, and am actively seeking internship
+                opportunities to further develop my expertise.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="p1.png" alt="Electric Vehicle Site" class="project-image">
+                <h3>Electric Vehicle Site</h3>
+                <p></p>
+                <a href="https://rhyno-electric-vehicles.netlify.app/" target="_blank">Take a glance!</a>
+            </div>
+            <div class="project">
+                <img src="p2.png" alt="Tic Tac Toe Game" class="project-image">
+                <h3>Tic Tac Toe Game</h3>
+                <p></p>
+                <a href="https://tic-tac-toe-ankbeg.netlify.app/" target="_blank">Take a glance!</a>
+            </div>
+            <div class="project">
+                <img src="p4.png" alt="Portfolio Project" class="project-image">
+                <h3>Portfolio</h3>
+                <p></p>
+                <a href="" target="_blank">Take a glance!</a>
+            </div>
+            <div class="project">
+                <img src="p3.png" alt="Sudoku Game" class="project-image">
+                <h3> Sudoku Game</h3>
+                <p></p>
+                <a href="https://ank-esh-kumar.github.io/Sudoku-Game/" target="_blank">Take a glance!</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Figma</li>
+            <li>C++</li>
+            <li>Mongodb</li>
+            <li>java</li>
+            <li>Python</li>
+            <li>Data Analytics</li>
+            <li>Flutter</li>
+            <li>Power Bi</li>
+            <li>Excel</li>
+        </ul>
+    </section>
+
+    <section id="video">
+        <h2>Video</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-container">
+            <div class="blog-post">
+                <h3>Blog Post 1</h3>
+                <p>Brief description or snippet of the blog post. Read more about my thoughts here.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Blog Post 2</h3>
+                <p>Another brief description or snippet of a blog post. Shared insights!</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="profiles">
+        <h2>My Coding Platform Profiles</h2>
+        <div class="profiles-container">
+            <div class="profile-card">
+                <img src="pr1 (1).png" alt="LeetCode Profile">
+                <p>LeetCode</p>
+                <a href="https://leetcode.com/u/ankesh_kumar_singh___/" target="_blank">Visit Profile</a>
+            </div>
+            <div class="profile-card">
+                <img src="pr1 (2).png" alt="HackerRank Profile">
+                <p>HackerRank</p>
+                <a href="https://www.hackerrank.com/ankbeg02" target="_blank">Visit Profile</a>
+            </div>
+            <div class="profile-card">
+                <img src="pr1 (3).png" alt="CodeChef Profile">
+                <p>CodeChef</p>
+                <a href="https://www.codechef.com/users/ankbeg02" target="_blank">Visit Profile</a>
+            </div>
+            <div class="profile-card">
+                <img src="pr1 (4).png" alt="InterviewBit Profile">
+                <p>InterviewBit</p>
+                <a href="https://www.interviewbit.com/profile/yourusername" target="_blank">Visit Profile</a>
+            </div>
+            <div class="profile-card">
+                <img src="pr1 (5).png" alt="Github-Profile">
+                <p>GitHub</p>
+                <a href="https://github.com/Ank-esh-kumar" target="_blank">Visit Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>My Certificates</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <img src="c1.jpg" alt="Certificate 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="c2.jpg" alt="Certificate 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="c3.jpg" alt="Certificate 3">
+                </div>
+                <div class="carousel-slide">
+                    <img src="c4.png" alt="Certificate 4">
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="cv">
+        <h2>CV</h2>
+        <div class="cv-container">
+            <p>See my latest CV to know more about my professional background and experience.</p>
+            <a href="https://drive.google.com/file/d/1PEYBsjGFjSyLic1UtqVN8DbtQ8lYFiHG/view?usp=sharing"
+                class="cv-download" target="_blank">Check Out! CV</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out!</p>
+        <ul>
+            <li> <a href="" target=""></a></li>
+            <li><i class="fa-solid fa-envelope fa-bounce fa-lg" style="color:#00a6ff
+
+;"></i> Email: <a href="mailto:ankbeg02@gmail.com">ankbeg02@gmail.com</a></li>
+            <li><i class="fa-brands fa-linkedin fa-bounce fa-lg" style="color:#00a6ff
+
+;"></i> LinkedIn: <a href="https://www.linkedin.com/in/ankesh-kumar-22e08" target="_blank">Ankesh (Ankesh Kumar
+                    Singh) kumar</a></li>
+            <li><i class="fa-brands fa-square-x-twitter fa-bounce fa-lg" style="color:#00a6ff
+
+;"></i> Twitter: <a href="https://x.com/" target="_blank">@ankbeg02</a></li>
+            <li><i class="fa-brands fa-square-instagram fa-bounce fa-lg" style="color:#00a6ff
+
+;"></i> Instagram: <a href="https://www.instagram.com/ankesh_kumar_singh___/?__pwa=1"
+                    target="_blank">@ankesh_kumar_singh___</a></li>
+            <li><i class="fa-brands fa-square-facebook fa-bounce fa-lg" style="color:#00a6ff
+
+;"></i> Facebook: <a href="https://www.facebook.com/profile.php?id=100054842815581" target="_blank">Ankesh
+                    Kumar</a></li>
+        </ul>
+    </section>
+
+    <!-- Welcome Message -->
+    <div id="welcome-modal" class="modal" aria-hidden="true">
+        <div class="modal-content" tabindex="-1">
+            <img src="profilepic.png" alt="Ankesh Kumar" class="profile-picture">
+            <h2 style="color: black;">Welcome to My Portfolio!</h2>
+            <p>Thank you for visiting. I hope you'll enjoy browsing through my projects and skills.</p>
+            <button onclick="closeModal()">Got it ! </button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ankesh Kumar. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
