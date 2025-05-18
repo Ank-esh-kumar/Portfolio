@@ -3,10 +3,10 @@ window.onload = function () {
   const modalContent = document.querySelector(".modal-content");
 
   if (modal) {
-    modal.style.display = "flex"; // Show modal
-    modal.setAttribute("aria-hidden", "false"); // Accessibility improvement
-    modalContent.focus(); // Focus modal content
-    document.body.style.overflow = "hidden"; // Lock page scroll
+    modal.style.display = "flex"; 
+    modal.setAttribute("aria-hidden", "false"); 
+    modalContent.focus(); 
+    document.body.style.overflow = "hidden"; 
   }
 };
 
@@ -14,13 +14,12 @@ function closeModal() {
   const modal = document.getElementById("welcome-modal");
 
   if (modal) {
-    modal.style.display = "none"; // Hide modal
-    modal.setAttribute("aria-hidden", "true"); // Accessibility improvement
-    document.body.style.overflow = ""; // Unlock page scroll
+    modal.style.display = "none"; 
+    modal.setAttribute("aria-hidden", "true"); 
+    document.body.style.overflow = ""; 
   }
 }
 
-// Carousel Functionality
 let slideIndex = 0;
 
 function moveSlide(step) {
@@ -44,16 +43,16 @@ document.addEventListener("DOMContentLoaded", function () {
   startAutoSlide();
 });
 window.onload = function () {
-  // Ensure the nav bar is hidden when the page loads
+
   document.getElementById("nav-bar").style.display = "none";
 };
 function toggleNav() {
   var navBar = document.getElementById("nav-bar");
   var menuBtn = document.getElementById("menu-btn");
 
-  // Toggle the navigation visibility
+
   navBar.style.display = navBar.style.display === "block" ? "none" : "block";
 
-  // Change button text to '×' (close button) when nav is open
+  
   menuBtn.innerHTML = navBar.style.display === "block" ? "×" : "☰";
 }
